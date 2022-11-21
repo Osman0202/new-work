@@ -1,6 +1,8 @@
 import turtle
+
 a = 0
 b = 0
+
 
 turtle.bgcolor("green")
 turtle.speed(0)
