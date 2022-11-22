@@ -1,12 +1,12 @@
 import turtle
-
+turtle.shape("turtle")
 a = 0
 b = 0
 
 turtle.bgcolor("red")
 turtle.pencolor("white")
 turtle.penup()
-turtle.speed(0)
+turtle.speed(10)
 turtle.penup()
 turtle.goto(0, 200)
 turtle.pendown()
