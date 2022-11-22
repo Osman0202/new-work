@@ -3,8 +3,8 @@ import turtle
 a = 0
 b = 0
 
-turtle.bgcolor("green")
-turtle.pencolor("black")
+turtle.bgcolor("red")
+turtle.pencolor("white")
 turtle.penup()
 turtle.speed(0)
 turtle.penup()
@@ -13,7 +13,7 @@ turtle.pendown()
 
 while True:
     turtle.forward(a)
-    turtle.rigth(b)
+    turtle.right(b)
     a += 3
     b += 1
     if b == 200:
