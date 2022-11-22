@@ -3,10 +3,10 @@ import turtle
 a = 0
 b = 0
 
-
 turtle.bgcolor("green")
-turtle.speed(0)
 turtle.pencolor("black")
+turtle.penup()
+turtle.speed(0)
 turtle.penup()
 turtle.goto(0, 200)
 turtle.pendown()
